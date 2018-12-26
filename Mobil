@@ -1,0 +1,10 @@
+package mobilberaksi;
+
+/**
+ *
+ * @author E2-PC
+ */
+public class Mobil {
+    String warna;
+    int TahunProduksi;
+}
