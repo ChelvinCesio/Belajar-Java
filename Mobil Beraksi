@@ -1,0 +1,19 @@
+public class MobilBeraksi {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        //membuat object dari class Mobil
+        Mobil mobilku = new Mobil();
+        
+        //mengisi atribut class
+        mobilku.warna = "Merah";
+        mobilku.TahunProduksi = 2005;
+                
+                //memanggil isi atribut
+                System.out.println("Warna Mobil:"+ mobilku.warna);
+                System.out.println("Tahun Mobil:"+ mobilku.TahunProduksi);
+    }
+       
+}
